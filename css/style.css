@@ -1,0 +1,117 @@
+
+@font-face {
+    font-family: "Spyderman";
+    src: url("../SRYDER MAN/spyderman.otf.") format('otf');
+    font-weight: 400px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0
+}
+
+
+div {
+    
+    
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 0;               /* ширина всей полосы прокрутки */
+  }
+
+  
+   nav {
+    position: fixed;
+    padding: 15px 0;
+    width: 100%;
+    z-index: 99;
+    
+  }
+  .opacity {
+    position: fixed;
+    padding: 27px 0;
+    width: 100%;
+    background-color:rgb(135, 131, 125);
+    opacity: 50%;
+
+
+  }
+
+ 
+.menu-item {
+    color:rgb(178, 194, 185);
+    font-size:small;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 12px;
+    background-color:rgb(105, 83, 62);
+    transition: all 0.9s;
+    border-radius: 5px;
+}
+
+
+.menu-item:hover{
+    color: rgb(41, 39, 39);
+    background-color:rgb(96, 119, 120);   
+}
+.slide {
+    height: 100vh;
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+}
+.button-grown {
+    background-color: brown;
+    color: aquamarine;
+}
+.go-up {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/top.png");
+    position: fixed;
+    right: 50px;
+    bottom:50px;
+    z-index: 99;
+}
+ /* для тега а внутри елемента с классом go-up   */
+
+.go-up a {
+    display: block;
+    height: 100%;
+
+}
+
+.button-left-bottom {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+
+}
+
+@media(max-width: 500px;) {
+
+    div {
+        width: 100%;
+}
+}
+
+
+
+
+
+
+
+
