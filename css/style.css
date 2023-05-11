@@ -1,7 +1,7 @@
 
 @font-face {
-    font-family: "Spyderman";
-    src: url("../SRYDER MAN/spyderman.otf.") format('otf');
+    font-family: "spiderman";
+    src: url("../font/spiderman.otf") format('otf');
     font-weight: 400px;
 }
 html{
@@ -80,7 +80,7 @@ body::-webkit-scrollbar {
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-    background-image: url("../img/top.png");
+    background-image: url("../img/top2.jpeg");
     position: fixed;
     right: 50px;
     bottom:50px;
