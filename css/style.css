@@ -13,20 +13,13 @@ body {
     margin: 0
 }
 
-
-div {
-    
-    
-}
-
-
-
 body::-webkit-scrollbar {
     width: 0;               /* ширина всей полосы прокрутки */
   }
 
   
    nav {
+    display: flex;
     position: fixed;
     padding: 15px 0;
     width: 100%;
@@ -45,6 +38,7 @@ body::-webkit-scrollbar {
 
  
 .menu-item {
+    display: flex;
     color:rgb(178, 194, 185);
     font-size:small;
     text-decoration: none;
@@ -53,6 +47,7 @@ body::-webkit-scrollbar {
     background-color:rgb(105, 83, 62);
     transition: all 0.9s;
     border-radius: 5px;
+    margin-left: 5px;
 }
 
 
@@ -101,11 +96,22 @@ body::-webkit-scrollbar {
 
 }
 
-@media(max-width: 500px;) {
+@media(max-width: 500px) {
+    nav {
+        display: block;
+    }
+    .menu-item {
+        margin: 5px;
+    }
+    .button-left-bottom {
+        left: 10px;
+        bottom: 15px;
+    }
+    .go-up {
+        right: 10px;
+        bottom: 15px;
+    }
 
-    div {
-        width: 100%;
-}
 }
 
 
