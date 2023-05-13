@@ -96,7 +96,7 @@ body::-webkit-scrollbar {
 
 }
 
-@media(max-width: 500px) {
+@media(max-width: 800px) {
     nav {
         display: block;
     }
